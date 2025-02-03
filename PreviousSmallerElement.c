@@ -52,8 +52,8 @@ int top(struct stack* stack)
 }
 void PreviousSamllerElement(struct stack* stack,int arr[],int n)
 {
-    int res[5];
-    for(int i=0;i<5;i++)
+    int res[n];
+    for(int i=0;i<n;i++)
     {
         res[i]=-1;
     }
